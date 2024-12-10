@@ -1,0 +1,5 @@
+space x = "hello world"
+print(x)
+space mut age = 20
+age += 1
+print(age)
