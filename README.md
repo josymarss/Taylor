@@ -1,4 +1,4 @@
-# 🌟 Taylor Programming Language
+# Taylor Programming Language
 
 > **Simple. Clear. Fast.**  
 > Taylor is a lightweight, general-purpose programming language designed to streamline development while delivering exceptional performance.
