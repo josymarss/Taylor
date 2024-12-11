@@ -1,22 +1,17 @@
 # Taylor Programming Language
 
-> **Simple. Clear. Fast.**  
 > Taylor is a lightweight, general-purpose programming language designed to streamline development while delivering exceptional performance.
 
-## 🚀 Features
-
-- **🌟 Simplicity First**: Write clean, concise code with ease.  
-- **⚡ High Performance**: Designed to be fast and efficient.  
-- **🤝 Swift Compatibility**: Works seamlessly with Swift for extended functionality.  
-- **🔧 Developer-Friendly**: Built to make development intuitive and enjoyable.
 
 ## 📚 Example Code
 
 Here's how Taylor makes coding effortless:  
 ```swift
-// Sample Taylor code
+//Sample Taylor code
+
 space greeting = "Hello, Taylor!"
 print(greeting)
+
 ```
 
 ## 🛠️ Installation
@@ -29,11 +24,10 @@ print(greeting)
    ```bash
    cd taylor
    ```
-3. Follow the setup instructions in the documentation.
 
 ## 🧑‍💻 Contributing
 
-Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to get started.
+Contributions are welcome! 
 
 ## 🏆 Acknowledgments
 
