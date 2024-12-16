@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:taylor}",
+      "name": "Debug taylor",
+      "program": "${workspaceFolder:taylor}/.build/debug/taylor",
+      "preLaunchTask": "swift: Build Debug taylor"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:taylor}",
+      "name": "Release taylor",
+      "program": "${workspaceFolder:taylor}/.build/release/taylor",
+      "preLaunchTask": "swift: Build Release taylor"
+    }
+  ]
+}

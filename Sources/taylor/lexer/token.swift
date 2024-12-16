@@ -24,8 +24,8 @@ enum TokenType {
   //Conditional
   case Less
   case Greater
-  case LessThanEqual
-  case GreaterThanEqual
+  case LessThanOrEqual
+  case GreaterThanOrEqual
 
   //Logical 
   case Or
@@ -35,6 +35,7 @@ enum TokenType {
   case Dot
   case DotDot
   case Colon
+  case ColonColon
   case Question
   case QuestionQuestion
   case Comma
@@ -56,7 +57,6 @@ enum TokenType {
   case Space // let or var 
   case Imut // const or let in swift
   case Struct 
-  case Impl 
   case Pack // use or import 
   case Of // from import 
   case Fun
@@ -67,9 +67,11 @@ enum TokenType {
   case Return 
   case Break 
   case Continue 
-  case Type 
+  case Typekeyword 
   case Enum 
   case Impl
+  case Error
+  case EOF
 }
 
 struct Token {
